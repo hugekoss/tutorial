@@ -1,0 +1,48 @@
+body{
+	background: #000;
+	font-size:20px;
+	color:white;
+	text-align: center;
+}
+#container{
+	margin-left:250px;
+	
+}
+header.top, nav, section, article, footer, aside, .head{
+	background: #C3C8BF;
+	border-radius:10px;
+}
+header.top, footer {
+	width: 70%;
+	height: 80px;
+	margin-bottom: 10px;
+}
+nav, aside{
+	width:15%;
+	height:400px;
+	float:left;
+}
+section{
+	width: 39%;
+	height: 400px;
+	float:left;
+	margin-left:5px;
+	margin-right: 5px;
+}
+.head, article, .footer{
+	width:95%;
+	background: #828DC8;
+	margin:5px auto;
+}
+article{
+	height:200px;
+}
+.head, .footer{
+	height:80px;
+}
+footer{
+	clear:both;
+}
+section, nav, aside{
+	margin-bottom: 10px;
+}
